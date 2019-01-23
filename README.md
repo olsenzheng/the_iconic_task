@@ -192,6 +192,6 @@ So to make the model more accurate, the features which can show male/female diff
  
 
 ## *Appendix A:*  Tips for R code execution 
-1. The R code named *THE\_ICONIC_model.R* can be found in the root directory.
+1. Unzip the code_data.zip, the R code named *THE\_ICONIC_model.R* and related data can be found.
 2. Following the commented instruction in the code to set the working space, then the code is ready for one-click run.
 3.  To apply the model to other dataset, replace the json file path and name line 8, the new json dataset is required to have exactly the same format with the original one.
