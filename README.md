@@ -187,7 +187,7 @@ So to make the model more accurate, the features which can show male/female diff
 1. **Gender:** With this feature added in, the unsurpervised learning can become a supervised or at least a semi-supervised learning which can significantly imporve the accuracy. If inferring gender is the aim, we should try whatever needed to get some gender flags as long as in a legal way.
 2. **Time spent when shopping:** Men and women act totally differently in term of time when shopping as men have clear aim so making the process short while women wandering for hours ending up buying nothing.
 3. **Number of saved items:** Women tend to save a lot while only buy a small part and men buy what is needed and seldom save, so this feature or some compound feature like *item_saved / item_purchased* can be good indicator to tell gender.
-4. **Name, or at least nick name:** Name and nick name can also indicate gender well, pre-analysis between name and gender is needed however there has been very mature model so we can take and use.
+4. **Name, or at least nick name:** Name and nick name can also indicate gender well, pre-analysis between name and gender is needed however there has been very mature NLP model for us to take and use.
 5. **Number of kid items bought:** It is usually the mother who consumes for the kids.
  
 
