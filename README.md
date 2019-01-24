@@ -148,7 +148,7 @@ Before choosing the model, some most basic feature engineering need applying for
 	| apple_payments|5.6e-4|
 	| other_device_orders|8.6e-5|
 
-### Model choosing
+### Model choosing and running
 
 Major models of unsupervised learning are K-menas, Principle Component Analysis and Auto Encoder, the latter two apply more in image process areas plus this task is a typical cluster senario, so K-means is chosen.
 
@@ -173,7 +173,7 @@ plot((X.raw$female_items+0.1)/(X.raw$male_items+0.1),type="p",col=Y$cluster)
  It can be seen that two gender (two colors) shows obvious boundary so the inferred gender can reflect well the real situation to a cerntain degree.
  
  
-### Model defect and feature suggestion
+## Model defect and feature suggestion
 
 Despite the result shown above, if we check the correlation between the inferred gender and given feature:
 
